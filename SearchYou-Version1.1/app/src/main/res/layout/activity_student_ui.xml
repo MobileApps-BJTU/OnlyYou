@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jin.searchyou_version11.StudentUIActivity">
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/profile"
+        android:scaleType="fitXY"
+        android:background="#ff1e8ce8"
+        android:id="@+id/profileButton"
+        />
+    <TextView android:text="@string/recruitsForMe"
+        android:id="@+id/StudentUIText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#ff1e8ce8"
+        android:textSize="25dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:id="@+id/listHolder"></FrameLayout>
+
+</RelativeLayout>

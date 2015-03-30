@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">职业来往</string>
+
+    <string name="action_settings">设置</string>
+    <string name="userName">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="title_activity_student_ui">学生界面</string>
+    <string name="recruitsForMe">适合我的招聘</string>
+    <string name="name">姓名:</string>
+    <string name="gender">性别:</string>
+    <string name="major">专业:</string>
+    <string name="resume">我的简历:</string>
+    <string name="edit">编辑</string>
+    <string name="candidates">应聘人</string>
+    <string name="createRecruitment">增加新的招聘</string>
+    <string name="searchFor">寻找的人:</string>
+    <string name="Company">单位:</string>
+    <string name="tag">标签:</string>
+    <string name="description">描述:</string>
+    <string name="create">创建</string>
+    <string name="tel">电话:</string>
+    <string name="address">地址:</string>
+    <string name="userType">用户类型:</string>
+    <string name="apply">应聘</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_employer">招聘者</string>
+    <string name="title_activity_new_recru">新的招聘</string>
+    <string name="title_activity_register">注册</string>
+</resources>
