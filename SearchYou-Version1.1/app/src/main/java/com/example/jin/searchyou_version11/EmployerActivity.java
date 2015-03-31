@@ -33,6 +33,14 @@ public class EmployerActivity extends ActionBarActivity {
         gridListView.setAdapter(sa);
 
         Button button = (Button)findViewById(R.id.createRec);
+		
+		button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent openNewActivity = new Intent(getApplicationContext(), NewRecruActivity.class);
+                startActivity(openNewActivity);
+            }
+        });
 
     }
 

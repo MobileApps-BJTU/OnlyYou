@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jin.searchyou_version11.NewRecruActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/searchFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/searchFor"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="25dp"
+            android:layout_toEndOf="@+id/searchFor"
+            />
+
+        <TextView
+            android:text="@string/Company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_below="@+id/searchFor"
+            android:layout_marginTop="15dp"
+            android:id="@+id/company"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/searchFor"
+            android:layout_toEndOf="@+id/company"
+            />
+
+
+        <TextView
+            android:text="@string/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_below="@+id/company"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tag"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/company"
+            android:layout_toEndOf="@+id/tag"
+
+            />
+
+
+        <TextView
+            android:text="@string/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_below="@+id/tag"
+            android:layout_marginTop="15dp"
+            android:id="@+id/description"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="15dp"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
