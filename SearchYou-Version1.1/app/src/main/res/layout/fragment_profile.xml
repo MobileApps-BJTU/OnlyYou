@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:background="#ffb8e5ed"
+    tools:context="com.example.jin.searchyou_version11.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="25dp"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:layout_toRightOf="@+id/name"
+        android:text="Tom"
+        android:textSize="25dp"
+        />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:id="@+id/gender"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/name"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/name"
+        android:layout_toEndOf="@+id/gender"
+
+        android:text="Male"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/major"
+        android:layout_below="@+id/gender"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/major"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:layout_below="@+id/gender"
+        android:layout_toEndOf="@+id/major"
+        android:text="C;C++;Java"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resume"
+            android:textSize="25dp"
+            android:layout_below="@+id/major"
+            android:layout_marginTop="15dp"
+            android:id="@+id/resume"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/resume"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:text="I am a software engineering student and i am good at......"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
+</FrameLayout>
