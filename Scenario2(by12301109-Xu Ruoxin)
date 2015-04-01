@@ -1,0 +1,34 @@
+Scenario2(by12301109-Xu Ruoxin)
+Before:
+	I am a human resource manager of an Internet company. Now our company needs to recruit some C/C++ and Java programmers for different departments from BJTU.
+
+During:
+	I take out my cell phone, download Only You(our app name), sign up as a company user, sign in, then publish our recruitment information. Now all I need is to wait the resumes come.
+
+After:
+	I receive a number of resumes. Check for every resumes, reply the candidates depending on their resume. Tell them come to have a written examination, or an interview, or directly offer them the job.
+
+use Cases(by12301109-Xu Ruoxin)
+Use Case 1:  Sign Up
+Precondition:
+	Downloaded the application on cell phone. 
+Description:
+	Click the sign up button, sign up as a company user. Type in the information(e.g. username, password, company name, mail address, etc.), reading some agreements, tick, confirm.  
+
+Use Case 2: Sign In
+Precondition:
+	Have an company user account.
+Description:
+	Choose As A Company User. Type in the user name and password. Click Sign In. 
+
+Use case 3: Publish Recruitment Information.
+Precondition: 
+	Have login in the application as a company user.
+Description:
+	Click Recruit button, type in recruitment information(e.g. requirements about the candidates). After finishing the recruitment inform, click upload the information to the server, then click Publish.
+
+Use Case 4: Read the coming resumes AND reply.
+Precondition:
+	Have published recruitment information. The app find some suitable candidates and the candidates agree to send the resumes to your company.
+Description:
+	Click Resume button go to the resume view, then reading the current resume. Click Next to read next resume. OR click Reply button to reply to the candidate who fulfills your company needs.
