@@ -45,6 +45,16 @@ public class MyListFragment extends Fragment {
         return view;
     }
 
+    gridListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+            //show recruitment information
+            Intent openNewActivity = new Intent(getActivity().getApplicationContext(), RecruInfoActivity.class);
+            startActivity(openNewActivity);
+        }
+    });
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
