@@ -1,0 +1,5 @@
+Exceptions
+
+Exception1:When typing nothing in some necessory information(e.g. password, username...), user will be asked to fill empty information.
+Exception2:When company user fails to upload employment ads, the current ad will be saved in account but not published. Same as the student user uploading resumes
+Exception3:....
